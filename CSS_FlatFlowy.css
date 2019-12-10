@@ -1,0 +1,29 @@
+/* FlatFlowy Stylesheet, original CSS by Erica Heinz, http://stylebot.me/styles/8086 */
+
+.page.searching .project .name {
+    display: none !important;
+}
+
+/* Delete for Show Notes version 
+.page.searching .project .notes {
+    display: none !important;
+}
+*/
+.page.searching .project.matches .name.matches {
+    display: block !important;
+}
+
+.page.searching .selected > .children > .project .project {
+    margin: 0 0 4px !important;
+}
+
+.page.searching .children {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.page.searching .childrenEnd {
+    height: 0 !important;
+}
+

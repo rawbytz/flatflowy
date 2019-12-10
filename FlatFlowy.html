@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>FlatFlowy Bookmarklet</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: left;
+      margin: 80px;
+    }
+
+    a:link {
+      color: #6ACFCD
+    }
+
+    a:visited {
+      color: Gray;
+    }
+  </style>
+</head>
+<body>
+  <h3>Version 2.3</h3>
+  <ul>
+    <li><i>Note: this version is not compatible with mobile WorkFlowy.</i></li>
+  </ul>
+  <br>
+  <p><b>To install, drag one of the links below to your bookmarks bar.</b></p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;This version <b>hides notes</b>:</p>
+  <p><b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:(function&#32;flatFlowy(hideNotes){function&#32;toastMsg(str,ms,err){WF.showMessage(&quot;&lt;b&gt;&quot;+str+&quot;&lt;/b&gt;&quot;,err);var&#32;t=ms?ms:2e3;setTimeout(function(){WF.hideMessage()},t)}var&#32;hNotes=hideNotes?&quot;,.page.searching&#32;.project&#32;.notes&quot;:&quot;&quot;;var&#32;css=&quot;.page.searching&#32;.project&#32;.name&quot;+hNotes+&quot;{display:none!important}.page.searching&#32;.project.matches&#32;.name.matches{display:block!important}.page.searching&#32;.selected&gt;.children&gt;.project&#32;.project{margin:0&#32;0&#32;4px!important}.page.searching&#32;.children{margin:0!important;padding:0!important;border:0!important}.page.searching&#32;.childrenEnd{height:0!important}&quot;;var&#32;h=&quot;data:text/css;charset=UTF-8,&quot;+encodeURIComponent(css);var&#32;s=document.styleSheets;for(i=0,max=s.length;i&lt;max;i++)if(s[i].href==h){var&#32;d=!s[i].disabled?true:false;var&#32;state=!s[i].disabled?&quot;OFF&quot;:&quot;ON&quot;;if(!WF.currentSearchQuery())toastMsg(&quot;Flatflowy:&#32;&quot;+state);return&#32;void(s.item(i).disabled=d)}var&#32;a=document.createElement(&quot;link&quot;);a.rel=&quot;stylesheet&quot;;a.href=h;document.getElementsByTagName(&quot;head&quot;)[0].appendChild(a);if(!WF.currentSearchQuery())toastMsg(&quot;Flatflowy:&#32;ON&quot;)})(true);">FlatFlowyH</a></b></p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;This version <b>shows notes</b>:</p>
+  <p><b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:(function&#32;flatFlowy(hideNotes){function&#32;toastMsg(str,ms,err){WF.showMessage(&quot;&lt;b&gt;&quot;+str+&quot;&lt;/b&gt;&quot;,err);var&#32;t=ms?ms:2e3;setTimeout(function(){WF.hideMessage()},t)}var&#32;hNotes=hideNotes?&quot;,.page.searching&#32;.project&#32;.notes&quot;:&quot;&quot;;var&#32;css=&quot;.page.searching&#32;.project&#32;.name&quot;+hNotes+&quot;{display:none!important}.page.searching&#32;.project.matches&#32;.name.matches{display:block!important}.page.searching&#32;.selected&gt;.children&gt;.project&#32;.project{margin:0&#32;0&#32;4px!important}.page.searching&#32;.children{margin:0!important;padding:0!important;border:0!important}.page.searching&#32;.childrenEnd{height:0!important}&quot;;var&#32;h=&quot;data:text/css;charset=UTF-8,&quot;+encodeURIComponent(css);var&#32;s=document.styleSheets;for(i=0,max=s.length;i&lt;max;i++)if(s[i].href==h){var&#32;d=!s[i].disabled?true:false;var&#32;state=!s[i].disabled?&quot;OFF&quot;:&quot;ON&quot;;if(!WF.currentSearchQuery())toastMsg(&quot;Flatflowy:&#32;&quot;+state);return&#32;void(s.item(i).disabled=d)}var&#32;a=document.createElement(&quot;link&quot;);a.rel=&quot;stylesheet&quot;;a.href=h;document.getElementsByTagName(&quot;head&quot;)[0].appendChild(a);if(!WF.currentSearchQuery())toastMsg(&quot;Flatflowy:&#32;ON&quot;)})();">FlatFlowyS</a></b></p>
+  <br>
+  <br>
+  <p><a href="https://rawbytz.wordpress.com/2015/12/16/flat-workflowy-lists/">rawbytz.wordpress.com</a></p>
+</body>
+</html>

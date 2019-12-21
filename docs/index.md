@@ -2,6 +2,8 @@
 
 - Flattens WorkFlowy search results
 
+![FlatFlowy](https://i.imgur.com/VGNHtcj.gif)
+
 ## Installation: Drag one of these links to your bookmarks bar:
 
 <!-- Special #setup editing instrucions go here -->

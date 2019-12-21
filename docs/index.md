@@ -1,8 +1,6 @@
 # FlatFlowy Bookmarklet for WorkFlowy
 
-- Describe
-- what
-- this does
+- Flattens WorkFlowy search results
 
 ## Installation: Drag one of these links to your bookmarks bar:
 

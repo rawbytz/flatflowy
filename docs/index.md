@@ -22,8 +22,8 @@ LINKS REFERENCING THIS
 
 @SOFTWARE https://rawbytz.wordpress.com/software/
 
-@BLOG https://rawbytz.wordpress.com/2015/12/16/flat-workflowy-lists/
+@BLOG Redirects https://rawbytz.wordpress.com/2015/12/16/flat-workflowy-lists/
 
-@WFBLOG https://blog.workflowy.com/2016/05/26/dr-workflowy-dissects-stress-and-anxiety/
+@WFBLOG NOT YET https://blog.workflowy.com/2016/05/26/dr-workflowy-dissects-stress-and-anxiety/
 
  -->

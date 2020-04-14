@@ -9,7 +9,9 @@
     display: none !important;
 }
 */
-.page.searching .project.matches .name.matches {
+ /* 2nd line selector for show notes */
+.page.searching .project.matches .name.matches,
+.page.searching .project.matches.noted .name {
     display: block !important;
 }
 

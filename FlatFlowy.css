@@ -2,7 +2,8 @@
   display: none;
 }
 .page.searching .project.matches .name.matches,
-.page.searching .project.matches.noted .name {
+.page.searching .project.matches.noted .name,
+.page.searching .project.metaMatches .name {
   display: block;
 }
 .page.searching .selected>.children>.project .project {

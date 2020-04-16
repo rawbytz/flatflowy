@@ -1,18 +1,18 @@
-.page.searching .project .name{
-    display:none!important
+.page.searching .project .name {
+    display:none;
 }
 .page.searching .project.matches .name.matches,
-.page.searching .project.matches.noted .name{
-    display:block!important
+.page.searching .project.matches.noted .name {
+    display:block;
 }
-.page.searching .selected>.children>.project .project{
-    margin:0 0 4px!important
+.page.searching .selected>.children>.project .project {
+    margin:0 0 4px;
 }
-.page.searching .children{
-    margin:0!important;
-    padding:0!important;
-    border:0!important
+.page.searching .children {
+    margin:0;
+    padding:0;
+    border:0;
 }
-.page.searching .childrenEnd{
-    height:0!important
+.page.searching .childrenEnd {
+    height:0;
 }

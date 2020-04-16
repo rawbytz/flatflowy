@@ -5,7 +5,7 @@
   }
   // Fix for WorkFlowy bullet click bug. Parent must be visible for animated zoom to work.
   function flatClicks(e) {
-    if (e.target && e.target.parentNode && e.target.parentNode.className.includes("bullet")) {
+    if (document.querySelector(".page.searching") && e.target && e.target.parentNode && e.target.parentNode.className.includes("bullet")) {
       location.href = e.target.parentNode.hash;
       e.preventDefault();
     }
@@ -15,7 +15,6 @@
   const s = document.querySelector(`link[href="${h}"]`);
   const noSearch = WF.currentSearchQuery() === null;
   if (s) {
-    s.disabled ? document.body.addEventListener("click", flatClicks, false) : document.body.removeEventListener("click", flatClicks, false);
     if (noSearch) toastMsg(`FlatFlowy: ${s.disabled ? "ON" : "OFF"}`);
     return void (s.disabled = !s.disabled);
   }

@@ -1,4 +1,4 @@
-(function flatFlowy_2_8(hideNotes ='_hideNotes_') {
+(function flatFlowy_2_9(hideNotes ='_hideNotes_') {
   if (typeof hideNotes !== "boolean") hideNotes = false;
   function toastMsg(str, sec, err) {
     WF.showMessage(str.bold(), err);

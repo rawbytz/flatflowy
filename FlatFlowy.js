@@ -16,4 +16,4 @@
   a.href = h;
   document.head.appendChild(a);
   if (noSearch) toastMsg("Flatflowy: ON");
-})();
+})();upd

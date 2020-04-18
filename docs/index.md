@@ -5,6 +5,7 @@
 - **Important!** Don’t move, drag or multi-edit items while viewing a flat list. Since some content is hidden, you could get unexpected results.
 - Due to WorkFlowy's "lazy load" you may need to scroll down to force some items to load when your list is long.
 - In flat mode, you cannot use the keyboard shortcut to zoom. Click the bullet instead.
+- Not compatible with mobile browsers.
 
 ![FlatFlowy](https://i.imgur.com/VGNHtcj.gif)
 

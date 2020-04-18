@@ -22,6 +22,8 @@
   a.rel = "stylesheet";
   a.href = h;
   document.head.appendChild(a);
-  document.body.addEventListener("click", fixFlatClicks, false);
+  if (!navigator.userAgent.includes("Mobile")) document.body.addEventListener("click", fixFlatClicks, false);
   if (noSearch) toastMsg("Flatflowy: ON");
 })();
+
+const IS_MOBILE = navigator.userAgent.includes("Mobile");

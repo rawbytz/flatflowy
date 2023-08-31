@@ -24,3 +24,12 @@
 .newMobileDesign .page.searching .children .content {
   padding-right: 0;
 }
+
+/* Fix for checkboxes and content displaying in 2 lines */
+.page.searching .checkmark .prefix {
+  display: inline-block;
+}
+
+.page.searching .checkmark > .name > .content {
+  display: inline-block;
+}

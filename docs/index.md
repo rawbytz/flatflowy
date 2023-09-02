@@ -1,10 +1,11 @@
 # FlatFlowy Bookmarklet for WorkFlowy
 
-- Flattens WorkFlowy search results
-- Works with the following searches: tags, text, meta (changed:1d) and dates.
+- Flattens WorkFlowy search results, removing all non-matching ancestors.
+- Removes WorkFlowy's search background highlighting.
+- Works with the following searches: tags, text, meta (changed:1d etc) and dates.
 - **Important!** Don’t move, drag or multi-edit items while viewing a flat list. Since some content is hidden, you could get unexpected results.
 - Due to WorkFlowy's "lazy load" you may need to scroll down to force some items to load when your list is long.
-- In flat mode, you cannot use the keyboard shortcut to zoom. Click the bullet instead.
+- Board content does not play nice with FlatFlowy... and most likely never will. 
 
 ![FlatFlowy](https://i.imgur.com/VGNHtcj.gif)
 
@@ -18,7 +19,7 @@
 - [rawbytz Blog Post](https://rawbytz.wordpress.com/2015/12/16/flat-workflowy-lists/)
 
 ## Version Notes
-- 2023-08-31: Fix for todo alignment
+- 2023-08-31: v3.1 Fix for todo alignment
 
 <!-- 
 LINKS REFERENCING THIS

@@ -1,4 +1,4 @@
-(function flatFlowy_3_1() {
+(function flatFlowy_3_2() {
   function toastMsg(str, sec, err) {
     WF.showMessage(str, err);
     setTimeout(WF.hideMessage, (sec || 2) * 1000);

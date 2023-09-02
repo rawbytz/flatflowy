@@ -1,35 +1,36 @@
-/* FlatFlowy */
-.page.searching .project .name {
-  display: none;
+/* Start by hiding all content while searching */
+/* Using height and opacity because zooming requires the parent to be in the DOM */
+.page.searching .project>.name,
+.page.searching .project>.notes {
+  height: 0;
+  opacity: 0;
 }
+
+/* Then show only names with matches */
 .page.searching .project.matches .name.matches,
 .page.searching .project.matches.noted .name,
 .page.searching .project.metaMatches .name {
-  display: block;
+  height: 100%;
+  opacity: 1;
 }
-.page.searching .selected > .children > .project .project {
-  margin: 0 0 4px;
-}
+
+/* Get rid of indents & indicators for children */
 .page.searching .children {
   margin: 0;
   padding: 0;
   border: 0;
 }
-.newMobileDesign .page.searching .selected .children .children {
-  margin-left: -2px;
-}
-.newMobileDesign .page.searching .selected .project > .name > .parentArrow {
+
+/* Hide Add sibling and expand arrows cuz they're nothin but trouble in Flatlandia */
+.page.searching .addSiblingButton,
+.page.searching .expand {
   display: none;
 }
-.newMobileDesign .page.searching .children .content {
-  padding-right: 0;
-}
 
-/* Fix for checkboxes and content displaying in 2 lines */
-.page.searching .checkmark .prefix {
-  display: inline-block;
-}
-
-.page.searching .checkmark > .name > .content {
-  display: inline-block;
+/* Disable match highlighting, because everything's a match! */
+.fullMatch .content .contentMatch,
+.done .fullMatch .content .contentMatch,
+.project.metaMatches>.name>.content>.innerContentContainer,
+.project.metaMatches>.name.with-updates.annotationAdded>.content>.innerContentContainer {
+  background-color: transparent;
 }

@@ -1,4 +1,4 @@
-/* Start by hiding all content while searching */
+/* Start by hiding all content while searching... bold move */
 /* Using height and opacity because zooming requires the parent to be in the DOM */
 .page.searching .project>.name,
 .page.searching .project>.notes {

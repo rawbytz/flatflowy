@@ -27,7 +27,7 @@
   display: none;
 }
 
-/* Disable match highlighting, because everything's a match! */
+/* Disable match highlighting, because everything's a match in Flatlandia! */
 .fullMatch .content .contentMatch,
 .done .fullMatch .content .contentMatch,
 .project.metaMatches>.name>.content>.innerContentContainer,

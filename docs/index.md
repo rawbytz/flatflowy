@@ -2,10 +2,10 @@
 
 - Flattens WorkFlowy search results, removing all non-matching ancestors.
 - Removes WorkFlowy's search background highlighting.
-- Works with the following searches: tags, text, meta (changed:1d etc) and dates.
+- Works with the following searches: tags, text and meta (ex: changed:1d or dates).
 - **Important!** Don’t move, drag or multi-edit items while viewing a flat list. Since some content is hidden, you could get unexpected results.
-- Due to WorkFlowy's "lazy load" you may need to scroll down to force some items to load when your list is long.
-- Board content does not play nice with FlatFlowy... and most likely never will. 
+- Due to WorkFlowy's sequential loading you may need to scroll down to force some items to load when your list is long.
+- Board content does not play nice with FlatFlowy. 
 
 ![FlatFlowy](https://i.imgur.com/VGNHtcj.gif)
 

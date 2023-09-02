@@ -4,16 +4,16 @@
     setTimeout(WF.hideMessage, (sec || 2) * 1000);
   }
   const css = `.page.searching .project>.name,.page.searching .project>.notes{height:0;opacity:0}.page.searching .project.matches .name.matches,.page.searching .project.matches.noted .name,.page.searching .project.metaMatches .name{height:100%;opacity:1}.page.searching .children{margin:0;padding:0;border:0}.page.searching .addSiblingButton,.page.searching .expand{display:none}.done .fullMatch .content .contentMatch,.fullMatch .content .contentMatch,.project.metaMatches>.name.with-updates.annotationAdded>.content>.innerContentContainer,.project.metaMatches>.name>.content>.innerContentContainer{background-color:transparent}`;
-  const h = `data:text/css;charset=UTF-8,${encodeURIComponent(css)}`;
-  const s = document.querySelector(`link[href="${h}"]`);
+  const ID = "FlatFlowy";
+  const ff = document.getElementById(ID);
   const NO_SEARCH = WF.currentSearchQuery() === null;
-  if (s) {
-    if (NO_SEARCH) toastMsg(`FlatFlowy: ${s.disabled ? "ON" : "OFF"}`);
-    return void (s.disabled = !s.disabled);
+  if (ff) {
+    if (NO_SEARCH) toastMsg(`FlatFlowy: ${ff.disabled ? "ON" : "OFF"}`);
+    return void (ff.disabled = !ff.disabled);
   }
-  const a = document.createElement("link");
-  a.rel = "stylesheet";
-  a.href = h;
-  document.head.appendChild(a);
+  const s = document.createElement('style');
+  s.innerText = css;
+  s.id = ID;
+  document.head.appendChild(s);
   if (NO_SEARCH) toastMsg("Flatflowy: ON");
 })();

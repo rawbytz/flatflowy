@@ -23,7 +23,7 @@
 - [rawbytz Blog Post](https://rawbytz.wordpress.com/2015/12/16/flat-workflowy-lists/)
 
 ## Version Notes
-- 2023-09-02: v3.2 Changed CSS to make zoom (via bullet or keyboard shortcut) more reliable. Add breadcrumbs on hover.
+- 2023-09-02: v3.2 Made zoom (via bullet or keyboard shortcut) reliable. Removed match highlighting. Added breadcrumbs on hover.
 - 2023-08-31: v3.1 Fix for todo alignment
 
 <!-- 
